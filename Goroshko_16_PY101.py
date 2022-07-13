@@ -82,7 +82,7 @@ if options == 'i':
     try:
         sample = ActionsWithStrOrInt(int(data))
     except ValueError:
-        print("Data that was inputed could not convert to integer type.\nYour data was given as a string type.")
+        print("Data that was input could not convert to integer type.\nYour data was given as a string type.")
         sample = ActionsWithStrOrInt(data)
 else:
     sample = ActionsWithStrOrInt(data)
